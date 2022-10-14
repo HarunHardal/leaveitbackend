@@ -20,7 +20,8 @@ export const addCart = async (req, res, next) => {
 
   const productId = req.body.productId;
   const quantity= req.body.quantity
-  console.log(productId, quantity)
+
+  next();
 
   try {
     let cart = await Cart.findOne({ userId });
