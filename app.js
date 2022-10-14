@@ -21,5 +21,5 @@ mongoose.connect(
 ).then(()=>{
     app.listen(process.env.PORT||PORT)
 }).then(()=>{
-    console.log("app work"+Port)
+    console.log("app work")
 }).catch((err)=>{console.log(err)});
