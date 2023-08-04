@@ -1,4 +1,4 @@
-import User from "../model/userModel";
+import User from "../model/userModel.js";
 import bcrypt from "bcryptjs";
 
 export const singup = async (req, res, next) => {

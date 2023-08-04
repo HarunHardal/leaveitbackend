@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Product from "../model/productModel";
+import Product from "../model/productModel.js";
 
 export const getProductById = async(req,res,next)=>{
   const id= req.params.id

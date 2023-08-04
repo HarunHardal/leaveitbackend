@@ -1,9 +1,9 @@
 import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
-import productRoutes from "./routes/product-routes"
-import userRoutes from "./routes/userRoutes";
-import cartRouter from "./routes/cart-routes";
+import productRoutes from "./routes/product-routes.js"
+import userRoutes from "./routes/userRoutes.js";
+import cartRouter from "./routes/cart-routes.js";
 import * as dotenv from 'dotenv' 
 dotenv.config()
 const PORT = 3000;
