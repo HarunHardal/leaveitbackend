@@ -1,6 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
-import {singup, login, getUserById, addFav} from "../controller/user-controller";
+import {singup, login, getUserById, addFav} from "../controller/user-controller.js";
 
 
 
