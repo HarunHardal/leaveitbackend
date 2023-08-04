@@ -3,14 +3,14 @@ import mongoose from "mongoose";
 import multer from "multer";
 import { v4 as uuidv4 } from "uuid";
 import * as path from "path";
-import Product from "../model/productModel";
+import Product from "../model/productModel.js";
 import {
   getProduct,
   updateProduct,
   getAllProducts,
   getAllProductsByGender,
   getProductById,
-} from "../controller/product-controller";
+} from "../controller/product-controller.js";
 
 const productRoutes = express.Router();
 
